@@ -1,0 +1,5 @@
+name: MobKillerMessage
+version: '${project.version}'
+main: be.jordiperreman.mobkillermessage.MobKillerMessage
+api-version: 1.13
+authors: [ jordi00113 ]

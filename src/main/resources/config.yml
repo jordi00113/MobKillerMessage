@@ -1,0 +1,9 @@
+#Configuration MobKillerMessage
+general:
+  #Message to display whenever you kill a mob
+  prefix: "&6&lMobKillerMessage >>"
+  kill-message: "%s killed a %s at coords X: %d Y: %d Z: %d"
+  #Type of mobs for which you want to display kill messages.
+  type-mobs-to-display-kill-message:
+    - Pig
+    - Chicken
