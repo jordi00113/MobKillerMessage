@@ -1,4 +1,4 @@
-<img src="docs/MobKillerMessage_Spigot_plugin.png" />
+<img src="docs/MobKillerMessage_Spigot_Plugin.png" />
 
 ## MobKillerMessage
 Broadcast mob deaths by players.
