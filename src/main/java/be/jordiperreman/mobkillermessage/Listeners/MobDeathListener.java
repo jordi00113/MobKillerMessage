@@ -32,7 +32,6 @@ public class MobDeathListener implements Listener {
             if (player != null) {
                 if (!player.hasPermission("mobkillermessage.deathmessagesender.bypass")) {
                     final String entityName = mob.getName();
-                    logger.warning(entityName);
                     if (fc.getStringList("general.type-mobs-to-display-kill-message").contains(entityName)) {
                         final Location loc = player.getLocation();
                         final String attackerName = player.getName();
