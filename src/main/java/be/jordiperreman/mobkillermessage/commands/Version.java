@@ -21,7 +21,7 @@ public class Version extends MobKillerMessageCmd implements ISubCommand {
             sender.sendMessage(ChatUtil.color(fc.getString("general.messages.no_perm")));
             return true;
         }
-        sender.sendMessage(ChatUtil.color(String.format(fc.getString("general.messages.version"), plugin.getDescription().getVersion())));
+        sender.sendMessage(ChatUtil.color(fc.getString("general.messages.prefix") + String.format(fc.getString("general.messages.version"), plugin.getDescription().getVersion())));
         return true;
     }
 

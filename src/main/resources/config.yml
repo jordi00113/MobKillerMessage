@@ -4,10 +4,12 @@ general:
   type-mobs-to-display-kill-message:
     - Pig
   messages:
-    # Message to display whenever you kill a mob
     prefix: "&6&lMobKillerMessage >> &r"
-    kill-message: "&3&l%s&r killed a &3&l%s&r at coords X: %d Y: %d Z: %d"
+
+    # Message to display whenever you kill a mob
+    kill-message: "&3&l%s&r killed a &3&l%s&r at coordinates X: %d Y: %d Z: %d"
+
     no_perm: "&8You do &c&lnot &r&8have permission."
     reload: "&fConfiguration is &a&lSuccessfully &freloaded."
     sub_cmd_not_exist: "&8The provided sub command &cdoesn't &8exist."
-    version: "&fCurrent plugion version: &cv:%s&f."
+    version: "&fCurrent plugin version: &cv:%s&f."

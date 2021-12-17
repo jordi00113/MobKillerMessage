@@ -24,7 +24,7 @@ public class Reload extends MobKillerMessageCmd implements ISubCommand {
             return true;
         }
         configService.loadConfig();
-        sender.sendMessage(ChatUtil.color(fc.getString("general.messages.reload")));
+        sender.sendMessage(ChatUtil.color(fc.getString("general.messages.prefix") + fc.getString("general.messages.reload")));
         return true;
     }
 

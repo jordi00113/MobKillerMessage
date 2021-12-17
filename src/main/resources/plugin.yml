@@ -5,7 +5,7 @@ api-version: 1.13
 authors: [ jordi00113 ]
 commands:
   mobkillermessage:
-    description:  Administrator commands
+    description:  Plugin help
     usage: /<command>
     aliases: [ mkm ]
 permissions:
@@ -14,13 +14,19 @@ permissions:
     description: Give players with op everything by default
   mobkillermessage.deathmessagereceiver.bypass:
     default: false
+    description: Bypass receiving deathmessages
   mobkillermessage.deathmessagesender.bypass:
     default: false
+    description: Bypass creating deathmessages
   mobkillermessage.author:
     default: true
+    description: Plugin author
   mobkillermessage.version:
     default: op
+    description: Plugin version
   mobkillermessage.reload:
     default: op
+    description: Reload plugin's configuration
   mobkillermessage.help:
     default: op
+    description: Plugin help
