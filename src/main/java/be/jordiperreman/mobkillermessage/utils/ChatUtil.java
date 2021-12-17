@@ -14,6 +14,6 @@ public class ChatUtil {
      */
     public static String color(String string) {
         string += " &r";
-        return ChatColor.translateAlternateColorCodes('&',string);
+        return ChatColor.translateAlternateColorCodes('&', string);
     }
 }

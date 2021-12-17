@@ -1,9 +1,13 @@
-#Configuration MobKillerMessage
+# Configuration MobKillerMessage
 general:
-  #Message to display whenever you kill a mob
-  prefix: "&6&lMobKillerMessage >>"
-  kill-message: "%s killed a %s at coords X: %d Y: %d Z: %d"
-  #Type of mobs for which you want to display kill messages.
+  # Type of mobs for which you want to display kill messages.
   type-mobs-to-display-kill-message:
     - Pig
-    - Chicken
+  messages:
+    # Message to display whenever you kill a mob
+    prefix: "&6&lMobKillerMessage >> &r"
+    kill-message: "&3&l%s&r killed a &3&l%s&r at coords X: %d Y: %d Z: %d"
+    no_perm: "&8You do &c&lnot &r&8have permission."
+    reload: "&fConfiguration is &a&lSuccessfully &freloaded."
+    sub_cmd_not_exist: "&8The provided sub command &cdoesn't &8exist."
+    version: "&fCurrent plugion version: &cv:%s&f."

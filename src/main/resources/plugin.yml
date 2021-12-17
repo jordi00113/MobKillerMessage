@@ -3,3 +3,24 @@ version: '${project.version}'
 main: be.jordiperreman.mobkillermessage.MobKillerMessage
 api-version: 1.13
 authors: [ jordi00113 ]
+commands:
+  mobkillermessage:
+    description:  Administrator commands
+    usage: /<command>
+    aliases: [ mkm ]
+permissions:
+  mobkillermessage.*:
+    default: op
+    description: Give players with op everything by default
+  mobkillermessage.deathmessagereceiver.bypass:
+    default: false
+  mobkillermessage.deathmessagesender.bypass:
+    default: false
+  mobkillermessage.author:
+    default: true
+  mobkillermessage.version:
+    default: op
+  mobkillermessage.reload:
+    default: op
+  mobkillermessage.help:
+    default: op
