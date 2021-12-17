@@ -33,7 +33,7 @@ Please report bugs in the issues section on GitHub to help improve this plugin.
 
 We would love to hear your suggestions.
 
-### ontributing
+### Contributing
 Please make a pull-request and we will look into it.
 ### Copyrights and License
 See LICENSE
