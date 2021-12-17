@@ -8,12 +8,12 @@ Broadcast mob deaths by players.
 + Able to bypass the broadcasted mob death messages from all users.
 ### Commands & Permissions
 #### Commands
-| Command                                | Description                 | Permission              |
-|----------------------------------------|-----------------------------|-------------------------|
-| **/mks** or <br/>**/mobkillermessage** | Plugin help                 | mobkillermessage.help   |
-| /mks reload                            | Reload plugin configuration | mobkillermessage.reload |
-| /mks version or /mks v                 | Display plugins version     | coalconverter.version   |
-| /mks author                            | Display plugins author      | coalconverter.author    |
+| Command                                | Description                 | Permission               |
+|----------------------------------------|-----------------------------|--------------------------|
+| **/mks** or <br/>**/mobkillermessage** | Plugin help                 | mobkillermessage.help    |
+| /mks reload                            | Reload plugin configuration | mobkillermessage.reload  |
+| /mks version or /mks v                 | Display plugins version     | mobkillermessage.version |
+| /mks author                            | Display plugins author      | mobkillermessage.author  |
 #### Permissions
 | Permissions                                  | Description                    | 
 |----------------------------------------------|--------------------------------|
