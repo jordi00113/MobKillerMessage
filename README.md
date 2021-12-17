@@ -1,3 +1,5 @@
+<img src="docs/MobKillerMessage Spigot plugin.png" style="align:center;" />
+
 ## MobKillerMessage
 Broadcast mob deaths by players.
 ### Features
