@@ -44,7 +44,10 @@ public class MobKillerMessageCmd extends CommandBase implements CommandExecutor,
                 sender.sendMessage(ChatUtil.color(fc.getString("general.messages.no_perm")));
                 return true;
             }
-            //TODO
+            sender.sendMessage(ChatUtil.color("&e------ &rHelp MobKillerMessage &e------ \n" +
+                    "&r&6/mkm author:&r Plugin author\n" +
+                    "&r&6/mkm reload:&r Reload plugin's configuration\n" +
+                    "&r&6/mkm version:&r Plugin version"));
             return true;
         }
     }
